@@ -1,11 +1,12 @@
+let idUnica = new Date().getTime()
 const db = [{
-    id: 1,
+    id: idUnica+1,
     title: "Martín Fierro", 
     author:"José Hernández",
     year:1872
 },
 {
-    id: 2,
+    id: idUnica+2,
     title: "Harry Potter", 
     author:"J.K Rowling",
     year:1990
